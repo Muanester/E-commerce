@@ -277,3 +277,17 @@ body {
     bottom: 20px;
     right: 10px;
 }
+
+#product1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #eaecdc;
+    /* font-weight: 500; */
+    color: #0859e6;
+    border: 1px solid #fbfcfc;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
