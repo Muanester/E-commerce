@@ -108,6 +108,10 @@ body {
     justify-content: center;
 }
 
+#navbar.active {
+    right: 0px;
+}
+
 #navbar li {
     list-style: none;
     padding: 0 20px;
@@ -141,6 +145,10 @@ body {
 #mobile {
     display: none;
     align-items: center;
+}
+
+#close {
+    display: none;
 }
 
 /*home*/
@@ -359,7 +367,6 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 30px;
-    text-align: center;
     background-image: url(images/people/dom.jpg);
     min-width: 580px;
     height: 50vh;
@@ -560,9 +567,13 @@ footer a:hover {
 
 /* media */
 @media (max-width:799px) {
+
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
     #header {
-        padding: 10px;
-        align-items: flex-start;
+        padding: 20px 50px;
     }
     #navbar {
         display: flex;
@@ -573,10 +584,11 @@ footer a:hover {
         top: 0;
         right: -300px;
         height: 100vh;
-        width: 30px;
+        width: 300px;
         background-color: white;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px;
+        transition: 0.3s;
     }
 
     #navbar li {
@@ -587,18 +599,134 @@ footer a:hover {
         display: flex;
         align-items: center;
     }
-    
-    /* .logo {
-        width: 50px;
-        align-items: flex-start;
-        
-    } */
 
     #mobile i {
         color: black;
         font-size: 24px;
         padding-left: 20px;
     }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 24px;
+    }
+
+    #ig-bag {
+        display: none;
+    }
+
+    #hero {
+        height: 70vh;
+        background-position: top 30% right 30%;
+        padding: 0 80px;
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe-box {
+        margin: 15px;
+    }
+
+    #product1 .pro-container {
+        justify-content: center;
+    } 
+    
+    #product1 .pro {
+        margin: 15px;
+    }
+
+    #banner {
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+        margin-bottom: 10px;
+    }
+
+    #banner3 {
+        padding: 0 40px;
+    }
+
+    #banner3 .banner-box {
+        width: 20%;
+    }
+
+    #newsletter .form {
+        width: 70%;
+    }
 }
 
+@media (max-width: 477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 10px 30px;
+    }
+
+    #hero {
+        background-position: 55%;
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #hero button {
+        margin-top: 40px;
+        padding: 14px 40px;
+    }
+
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    #newsletter {
+        padding: 40px 20px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    
+}
 
