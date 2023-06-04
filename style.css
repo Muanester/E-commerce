@@ -190,6 +190,13 @@ body {
 }
 
 /*feature*/
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 #feature .fe-box {
     width: 180px;
     text-align: center;
@@ -198,7 +205,6 @@ body {
     border: 1px solid #eff1f6;
     border-radius: 4px;
     margin: 15px 0;
-    background-image: url(images/background/wood.jpg);
 }
 
 #feature .fe-box:hover{
@@ -232,15 +238,8 @@ body {
 
 #feature .fe-box img {
     width: 100%;
-    height: 100px;
+    height: 200px;
     margin-bottom: 10px;
-}
-
-#feature {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 /*Products section*/
