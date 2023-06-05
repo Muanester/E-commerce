@@ -153,11 +153,11 @@ body {
 
 /*home*/
 #hero {
-    background-image: url(images/people/jeremy.jpg);
+    background-image: url(images/people/tamara.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 0;
+    background-position: top 30% right 0;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -174,7 +174,8 @@ body {
 }
 
 #hero #des {
-    color: aliceblue;
+    color: rgb(48, 21, 251);
+    font-weight: 600;
 }
 
 #hero button {
